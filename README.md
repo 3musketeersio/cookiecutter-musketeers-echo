@@ -1,8 +1,9 @@
+[![Build Status](https://travis-ci.org/3musketeersio/cookiecutter-musketeers-echo.svg?branch=master)](https://travis-ci.org/3musketeersio/cookiecutter-musketeers-echo)
 [![License](https://img.shields.io/dub/l/vibe-d.svg)](LICENSE)
 
 # 3 Musketeers - Cookiecutter Echo
 
-🍪 A very simple [Cookiecutter](https://github.com/audreyr/cookiecutter) template to show the [3 Musketeers](https://github.com/flemay/3musketeers) in action. ⚔️
+🍪 A very simple [Cookiecutter][] template to show the [3 Musketeers][3Musketeers] in action. ⚔️
 
 The generated application echos the value of the environment variable `ECHO_MESSAGE`.
 
@@ -20,3 +21,6 @@ $ docker run -it --rm -v $PWD:/opt/app -w /opt/app flemay/cookiecutter https://g
 # test this repository: generate, run, and clean locally
 $ make
 ```
+
+[Cookiecutter]: https://github.com/audreyr/cookiecutter
+[3Musketeers]: https://github.com/flemay/3musketeers
