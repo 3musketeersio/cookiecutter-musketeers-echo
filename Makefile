@@ -6,6 +6,7 @@ all: generate test clean
 
 generate:
 	$(COMPOSE_RUN_COOKIECUTTER) cookiecutter --no-input -f .
+	cd $(GIT_REPO_NAME) && ls -la
 .PHONY: generate
 
 test:
