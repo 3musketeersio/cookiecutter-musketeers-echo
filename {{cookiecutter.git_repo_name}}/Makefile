@@ -8,6 +8,7 @@ all:
 
 # envfile creates or overwrites .env with $(ENVFILE)
 envfile:
+	touch .env
 	cp -f $(ENVFILE) .env
 .PHONY: envfile
 
