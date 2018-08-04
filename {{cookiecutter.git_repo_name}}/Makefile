@@ -8,7 +8,7 @@ all:
 
 # envfile creates or overwrites .env with $(ENVFILE)
 envfile:
-	$(COMPOSE_RUN_MUSKETEERS) bash -c "cp -f $(ENVFILE) .env"
+	cp -f $(ENVFILE) .env
 .PHONY: envfile
 
 # echo calls the target _echo with the musketeers image
